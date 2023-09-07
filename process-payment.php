@@ -11,7 +11,7 @@ $amount = $_POST['amount'];
 
 // Flutterwave payment config
 $payment = [
-  'publicKey' => 'FLWPUBK-1af4cb2fe27f7eb2f79c05e0e87-X',
+  'publicKey' => 'FLWPUBK-1-X',
   'txRef' => 'momo-pay-'.time(),
   'amount' => $amount,
   'payment_options' => 'mobilemoneyrwanda',
