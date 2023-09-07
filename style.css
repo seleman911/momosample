@@ -1,0 +1,30 @@
+form {
+  width: 400px;
+  margin: 20px auto;
+}
+
+label {
+  display: inline-block;
+  width: 120px;
+}
+
+input {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type=submit] {
+  width: 100px;
+  margin-left: 120px;
+  background-color: #3CBC8D;
+  color: white;
+}
+
+input:focus {
+  border-color: #3CBC8D;
+}
+
+input[readonly] {
+  background-color: #eee;
+}
