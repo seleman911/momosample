@@ -1,0 +1,7 @@
+<!-- payment-form.html -->
+
+<form action="process-payment.php" method="POST">
+  <input type="text" name="phone" required>
+  <input type="number" name="amount" required> 
+  <button type="submit">Pay with Momo</button>
+</form>
